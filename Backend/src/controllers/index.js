@@ -1,7 +1,9 @@
 import {
-    addPost
+    addPost,
+    addReply
 } from './controllers'
 
 export{
-    addPost
+    addPost,
+    addReply
 }

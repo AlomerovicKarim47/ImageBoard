@@ -6,7 +6,8 @@ const postSchema = new mongoose.Schema({
     image: String,
     likes: Number,
     dislikes: Number,
-    replies: Array
+    replies: Array,
+    board: String
 })
 const Post = mongoose.model("Post", postSchema)
 export default Post

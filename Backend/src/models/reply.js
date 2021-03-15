@@ -5,7 +5,8 @@ const replySchema = new mongoose.Schema({
     text: String,
     likes: Number,
     dislikes: Number,
-    replies:Array
+    replies:Array,
+    board: String
 })
 const Reply = mongoose.model("Reply", replySchema)
 
