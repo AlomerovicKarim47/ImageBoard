@@ -1,9 +1,27 @@
 import {
     addPost,
-    addReply
+    addReply,
+    getPosts,
+    register,
+    login,
+    updatePostOrReply,
+    deletePostOrReply,
+    getBoards,
+    getReplies,
+    addBoard,
+    joinBoard
 } from './controllers'
 
 export{
     addPost,
-    addReply
+    addReply,
+    getPosts,
+    register,
+    login,
+    updatePostOrReply,
+    deletePostOrReply,
+    getBoards,
+    getReplies,
+    addBoard,
+    joinBoard
 }

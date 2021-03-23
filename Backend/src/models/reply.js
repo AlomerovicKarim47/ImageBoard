@@ -5,9 +5,9 @@ const replySchema = new mongoose.Schema({
     text: String,
     likes: Number,
     dislikes: Number,
-    replies:Array,
+    replies: [Number],
     board: String
-})
+}, {autoCreate:true})
 const Reply = mongoose.model("Reply", replySchema)
 
 export default Reply
