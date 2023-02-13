@@ -1,2 +1,2 @@
 # ImageBoard
-A small image board project
+Backend for a small image board project. Frontend on hold for now.
